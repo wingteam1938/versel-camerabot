@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/webhook.js": {
+      "maxDuration": 60
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/webhook" }
+  ]
+}
